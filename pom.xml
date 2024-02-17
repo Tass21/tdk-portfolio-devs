@@ -30,6 +30,7 @@
         <maven-compiler.version>3.1.10</maven-compiler.version>
 
         <!-- maven Organisations settings -->
+        <snakeyaml.version>2.0</snakeyaml.version>
     </properties>
 
     <!--Dependencies management -->
@@ -82,10 +83,6 @@
                     <groupId>org.apache.logging.log4j</groupId>
                     <artifactId>log4j-to-slf4j</artifactId>
                 </exclusion>
-                <exclusion>
-                    <groupId>org.yaml</groupId>
-                    <artifactId>snakeyaml</artifactId>
-                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
@@ -101,6 +98,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>${snakeyaml.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

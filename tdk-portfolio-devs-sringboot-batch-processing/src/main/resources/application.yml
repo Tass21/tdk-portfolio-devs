@@ -1,0 +1,21 @@
+server:
+  port: 8018
+
+spring:
+  application:
+    name: batch-processing
+  datasource:
+    url: jdbc:postgresql://localhost:5332/file-upload
+    username: username
+    password: password
+    diver-class-name: og.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platfom: og.hibernate.dialect.PostgresSQLDialect
+    show-sql: true
