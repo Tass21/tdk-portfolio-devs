@@ -24,13 +24,14 @@
         <spring.boot.maven.plugin.version>3.1.8</spring.boot.maven.plugin.version>
         <jakarta.servlet.version>4.0.0</jakarta.servlet.version>
         <logback.version>1.4.14</logback.version>
+        <snakeyaml.version>2.2</snakeyaml.version>
         <spring-webmvc>6.1.12</spring-webmvc>
 
         <!-- maven plugin versions -->
         <maven-compiler.version>3.1.10</maven-compiler.version>
 
         <!-- maven Organisations settings -->
-        <snakeyaml.version>2.0</snakeyaml.version>
+
     </properties>
 
     <!--Dependencies management -->
@@ -97,6 +98,11 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>${snakeyaml.version}</version>
         </dependency>
 
 
