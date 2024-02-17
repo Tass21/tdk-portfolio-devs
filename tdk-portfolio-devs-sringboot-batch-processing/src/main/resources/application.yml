@@ -1,5 +1,5 @@
 server:
-  port: 8018
+  port: 9090
 
 spring:
   application:
@@ -15,7 +15,13 @@ spring:
       ddl-auto: create-drop
     properties:
       hibernate:
-        format_sql: true
+        format_sql: false
     database: postgresql
     database-platfom: og.hibernate.dialect.PostgresSQLDialect
     show-sql: true
+
+  batch:
+    jdbc:
+      initialize-schema: always
+    job:
+      enabled: false # So I can trigger the job myself
