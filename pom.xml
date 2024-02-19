@@ -14,6 +14,7 @@
     </organization>
     <modules>
         <module>tdk-portfolio-devs-sringboot-batch-processing</module>
+        <module>tdk-portfolio-devs-springboot-security-jwt</module>
     </modules>
 
     <properties>
