@@ -21,8 +21,8 @@
         <java.source.version>17</java.source.version>
         <java.taget.version>17</java.taget.version>
         <springdoc-openapi.version>2.2.0</springdoc-openapi.version>
-        <spring.boot.dependencies.version>3.1.8</spring.boot.dependencies.version>
-        <spring.boot.maven.plugin.version>3.1.8</spring.boot.maven.plugin.version>
+        <spring.boot.dependencies.version>3.0.0</spring.boot.dependencies.version>
+        <spring.boot.maven.plugin.version>3.0.0</spring.boot.maven.plugin.version>
         <jakarta.servlet.version>4.0.0</jakarta.servlet.version>
         <logback.version>1.4.14</logback.version>
         <snakeyaml.version>2.2</snakeyaml.version>
